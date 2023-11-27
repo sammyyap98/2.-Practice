@@ -1,3 +1,4 @@
 #testting
 def func():
-  return none
+  return "test"
+  
