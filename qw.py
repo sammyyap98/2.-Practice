@@ -1,2 +1,3 @@
 #testting
-print("123")
+def func():
+  return none
