@@ -8,7 +8,7 @@ def func():
 
 
 
-payload = { 
+payload = {  
   "model": "",
   "messages": [
     {
