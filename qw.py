@@ -6,7 +6,7 @@ def updateAverageBar(self):
     for i, (k, _) in enumerate(self.categoryPrecDict.items()): 
         baseX = list(range(len(self.categoryDeltaList)))
         keyIndex = self.findKeyIndex(modelVersion=k)
-        
+         
         if keyIndex > len(self.barColorList) - 1:
             keyIndex = keyIndex % len(self.barColorList)
 
