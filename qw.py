@@ -2,7 +2,7 @@ def updateAverageBar(self):
   
     plt = self.makeDefaultAverageBar()   
     totalModelLen = len(self.categoryPrecDict.items()) - 1
-   
+    
     for i, (k, _) in enumerate(self.categoryPrecDict.items()): 
         baseX = list(range(len(self.categoryDeltaList))) 
         keyIndex = self.findKeyIndex(modelVersion=k) 
