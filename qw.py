@@ -1,4 +1,4 @@
-def updateAverageBar(self):
+def updateAverageBar(self): 
   
     plt = self.makeDefaultAverageBar()        
     totalModelLen = len(self.categoryPrecDict.items()) - 1 
