@@ -1,5 +1,4 @@
 
-
 def updateAverageBar(self):         
              
     plt = self.makeDefaultAverageBar()                   
